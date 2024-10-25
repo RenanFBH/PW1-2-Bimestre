@@ -1,0 +1,361 @@
+body{
+	font-family:evil_dead;
+	background-color:#000000;
+}
+header{
+	text-align:center;
+	color:#ffffff;
+	font-size:50px;
+	background-image:url(../img/fundo1.jpg);
+	background-position:center;
+	background-size:100%;
+	border:2px solid #bfbfbf;
+	border-radius:0px;
+	opacity:100%;
+	padding:10px;
+}
+nav{
+	display:inline-block;
+	width:100%;
+}
+article{
+	background-color:#ffffff;
+	width:100%;
+	border:#bfbfbf;
+	border-radius:20px;
+	float:left;
+}
+a{
+	text-decoration:none;
+	margin-left:50px;
+	margin-right:50px;
+	font-size:45px;
+	color:#000000;
+}
+h2{
+	text-align:center;
+}
+a:hover{
+	color:#d94040;
+	background-color:;
+}
+footer{
+	text-align:center;
+	background-color:#ffffff; 
+}
+.opc1, .opc2, .opc3, .opc4, .opc5{
+	display:inline-block;
+	border:2px solid #000000;
+	border-radius:20px;
+	background-color:#ffffff;
+}
+.principal{
+	margin-left:10px;
+	
+}
+.fundo1{
+	background-color:#808080;
+	text-align:center;
+}
+.fundo3{
+	background-color:#d9d9d9;
+}
+.icone, .empresa{
+	display:inline-block;
+}
+.titulo1, .titulo2, .titulo3, .titulo4, .titulo5, .titulo6, .titulo7, .titulo8, .titulo9{
+	background-color:#bfbfbf;
+	text-align:center;
+	font-size:20px;
+	padding:10px;
+	margin:0px;
+}
+.sol-principal, .mercurio-principal, .venus-principal, .terra-principal, .marte-principal, .jupiter-principal, .saturno-principal, .urano-principal, .netuno-principal{
+	display:flex;
+}
+.text-sol, .text-mercurio, .text-venus, .text-terra, .text-marte, .text-jupiter, .text-saturno, .text-urano, .text-netuno{
+	margin:5px;
+}
+#imagem-solid, #imagem-mercurioid, #imagem-venusid, #imagem-terraid, #imagem-marteid, #imagem-jupiterid, #imagem-saturnoid, #imagem-netunoid, #imagem-uranoid, #imagem-netunoid{
+	width:300px;
+	height:300px;
+	border:2px solid #ffffff;
+}
+#icone{
+	width:15%;
+	height:15%;
+}
+@media (min-width:320px){
+	header{
+		font-size:15px;
+	}
+	nav {
+		width:100%;
+		font-size:10px;
+		background-color:#808080;
+		margin-top:2px;
+	}
+	article{
+		width:100%;
+		font-size:10px;
+	}
+	a{
+		text-decoration:none;
+		margin-left:10px;
+		margin-right:10px;
+		font-size:11px;
+		color:#000000;
+	}
+	.opc1, .opc2, .opc3, .opc4, .opc5{
+		display:block;
+		border:2px solid #000000;
+		border-radius:20px;
+		background-color:#ffffff;
+		margin:5px;
+	}
+	.titulo1, .titulo2, .titulo3, .titulo4, .titulo5, .titulo6, .titulo7, .titulo8, .titulo9{
+		background-color:#bfbfbf;
+		text-align:center;
+		font-size:10px;
+		padding:5px;
+	}
+	.imagem-sol, .imagem-mercurio, .imagem-venus, .imagem-terra, .imagem-marte, .imagem-jupiter, .imagem-saturno, .imagem-urano, .imagem-netuno{
+		text-align:center;
+	}
+	.sol-principal, .mercurio-principal, .venus-principal, .terra-principal, .marte-principal, .jupiter-principal, .saturno-principal, .urano-principal, .netuno-principal{
+		display:block;
+	}
+	.icone, .empresa{
+		display:inline-block;
+		font-size:10px;
+	}
+	#imagem-solid, #imagem-mercurioid, #imagem-venusid, #imagem-terraid, #imagem-marteid, #imagem-jupiterid, #imagem-saturnoid, #imagem-netunoid, #imagem-uranoid, #imagem-netunoid{
+		width:70px;
+		height:70px;
+		border:2px solid #ffffff;
+	}
+	#icone{
+		width:7%;
+		height:7%;
+	}
+}
+@media (min-width:500px){
+	header{
+		font-size:30px;
+		padding:10px;
+	}
+	nav{
+		margin-top:2px;
+	}
+	article{
+		width:100%;
+		font-size:15px;
+	}
+	a{
+		text-decoration:none;
+		margin-left:10px;
+		margin-right:10px;
+		font-size:20px;
+		color:#000000;	
+	}
+	.titulo1, .titulo2, .titulo3, .titulo4, .titulo5, .titulo6, .titulo7, .titulo8, .titulo9{
+		background-color:#bfbfbf;
+		text-align:center;
+		font-size:15px;
+		padding:5px;
+	}
+	.imagem-sol, .imagem-mercurio, .imagem-venus, .imagem-terra, .imagem-marte, .imagem-jupiter, .imagem-saturno, .imagem-urano, .imagem-netuno{
+		text-align:center;
+	}
+	.sol-principal, .mercurio-principal, .venus-principal, .terra-principal, .marte-principal, .jupiter-principal, .saturno-principal, .urano-principal, .netuno-principal{
+		display:block;
+	}
+	.icone, .empresa{
+		display:inline-block;
+		font-size:10px;
+	}
+	#imagem-solid, #imagem-mercurioid, #imagem-venusid, #imagem-terraid, #imagem-marteid, #imagem-jupiterid, #imagem-saturnoid, #imagem-netunoid, #imagem-uranoid, #imagem-netunoid{
+		width:150px;
+		height:150px;
+		border:2px solid #ffffff;
+	}
+	#icone{
+		width:10%;
+		height:10%;
+	}
+}
+@media (min-width:700px){
+	header{
+		font-size:30px;
+		padding:10px;
+	}
+	nav{
+		width:100%;
+		border:none;
+		border-radius:0px;
+	}
+	article{
+		width:100%;
+		font-size:15px;
+	}
+	a{
+		text-decoration:none;
+		margin-left:10px;
+		margin-right:10px;
+		font-size:25px;
+		color:#000000;	
+	}
+	.opc1, .opc2, .opc3, .opc4, .opc5{
+		display:inline-block;
+		border:2px solid #000000;
+		border-radius:20px;
+		background-color:#ffffff;
+	}
+	.fundo1{
+		background-color:#808080;
+		text-align:center;
+	}
+	.principal{
+		margin-left:10px;
+	}
+	.titulo1, .titulo2, .titulo3, .titulo4, .titulo5, .titulo6, .titulo7, .titulo8, .titulo9{
+		background-color:#bfbfbf;
+		text-align:center;
+		font-size:15px;
+		padding:15px;
+	}
+	.imagem-sol, .imagem-mercurio, .imagem-venus, .imagem-terra, .imagem-marte, .imagem-jupiter, .imagem-saturno, .imagem-urano, .imagem-netuno{
+		text-align:left;
+	}
+	.sol-principal, .mercurio-principal, .venus-principal, .terra-principal, .marte-principal, .jupiter-principal, .saturno-principal, .urano-principal, .netuno-principal{
+		display:flex;
+	}
+	.icone, .empresa{
+		display:inline-block;
+		font-size:10px;
+	}
+	#imagem-solid, #imagem-mercurioid, #imagem-venusid, #imagem-terraid, #imagem-marteid, #imagem-jupiterid, #imagem-saturnoid, #imagem-netunoid, #imagem-uranoid, #imagem-netunoid{
+		width:200px;
+		height:200px;
+		border:2px solid #ffffff;
+	}
+	#icone{
+		width:10%;
+		height:10%;
+	}
+}
+@media (min-width:900px){
+	header{
+		font-size:50px;
+		padding:10px;
+	}
+	nav{
+		width:100%;
+		border:none;
+		border-radius:0px;
+	}
+	article{
+		width:100%;
+		font-size:15px;
+	}
+	a{
+		text-decoration:none;
+		margin-left:10px;
+		margin-right:10px;
+		font-size:35px;
+		color:#000000;	
+	}
+	.opc1, .opc2, .opc3, .opc4, .opc5{
+		display:inline-block;
+		border:2px solid #000000;
+		border-radius:20px;
+		background-color:#ffffff;
+	}
+	.fundo1{
+		background-color:#808080;
+		text-align:center;
+	}
+	.principal{
+		margin-left:10px;
+	}
+	.titulo1, .titulo2, .titulo3, .titulo4, .titulo5, .titulo6, .titulo7, .titulo8, .titulo9{
+		background-color:#bfbfbf;
+		text-align:center;
+		font-size:20px;
+		padding:15px;
+	}
+	.imagem-sol, .imagem-mercurio, .imagem-venus, .imagem-terra, .imagem-marte, .imagem-jupiter, .imagem-saturno, .imagem-urano, .imagem-netuno{
+		text-align:left;
+	}
+	.sol-principal, .mercurio-principal, .venus-principal, .terra-principal, .marte-principal, .jupiter-principal, .saturno-principal, .urano-principal, .netuno-principal{
+		display:flex;
+	}
+	.icone, .empresa{
+		display:inline-block;
+		font-size:15px;
+	}
+	#imagem-solid, #imagem-mercurioid, #imagem-venusid, #imagem-terraid, #imagem-marteid, #imagem-jupiterid, #imagem-saturnoid, #imagem-netunoid, #imagem-uranoid, #imagem-netunoid{
+		width:200px;
+		height:200px;
+		border:2px solid #ffffff;
+	}
+	#icone{
+		width:10%;
+		height:10%;
+	}
+}
+@media (min-width:1200px){
+	header{
+		font-size:70px;
+		padding:10px;
+	}
+	nav{
+		width:100%;
+		border:none;
+		border-radius:0px;
+	}
+	article{
+		width:100%;
+		font-size:20px;
+	}
+	a{
+		text-decoration:none;
+		margin-left:10px;
+		margin-right:10px;
+		font-size:50px;
+		color:#000000;	
+	}
+	.opc1, .opc2, .opc3, .opc4, .opc5{
+		display:inline-block;
+		border:2px solid #000000;
+		border-radius:20px;
+		background-color:#ffffff;
+	}
+	.fundo1{
+		background-color:#808080;
+		text-align:center;
+	}
+	.principal{
+		margin-left:10px;
+	}
+	.titulo1, .titulo2, .titulo3, .titulo4, .titulo5, .titulo6, .titulo7, .titulo8, .titulo9{
+		background-color:#bfbfbf;
+		text-align:center;
+		font-size:25px;
+		padding:15px;
+	}
+	.imagem-sol, .imagem-mercurio, .imagem-venus, .imagem-terra, .imagem-marte, .imagem-jupiter, .imagem-saturno, .imagem-urano, .imagem-netuno{
+		text-align:left;
+	}
+	.sol-principal, .mercurio-principal, .venus-principal, .terra-principal, .marte-principal, .jupiter-principal, .saturno-principal, .urano-principal, .netuno-principal{
+		display:flex;
+	}
+	.icone, .empresa{
+		display:inline-block;
+		font-size:15px;
+	}
+	#icone{
+		width:15%;
+		height:15%;
+	}
+}
